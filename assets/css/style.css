@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/* CSS Reset END */
+/* CSS Reset Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+header {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+header h1 {
+  color:blue;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
+container {
+  align-items: center;
+}
+
+container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+container table, container th, container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+container th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
